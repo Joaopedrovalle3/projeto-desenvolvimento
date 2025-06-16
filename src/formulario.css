@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body { font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0; 
+    padding: 0;
+    overflow-x: hidden;
+ }
+
+.container { width: 90%;
+    max-width: 800px; 
+    margin: 30px auto; 
+    padding: 10px;
+    background: burlywood; 
+    border-radius: 8px; 
+    box-shadow: 0 0 20px burlywood; }
+
+h1 {
+    font-weight: bolder;
+}
+
+h1, h2 { text-align: center; 
+    color: #712121; }
+
+.form-section { margin-bottom: 30px; }
+
+form input, form button, .form-section input, .form-section button { display: block; 
+    width: 400px;
+    padding: 10px; 
+    margin: 0 auto 16px auto; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; }
+
+button { background-color: #712121; 
+    color: white; 
+    font-weight: bold; 
+    cursor: pointer; 
+    border: none; }
+
+button:hover { background-color: #712121; }
+
+table { width: 100%;
+  margin: 0 auto 16px auto;
+  border-collapse: separate;
+  border-spacing: 1px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+th:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+th:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+
+/* table, th, td { border: 1px solid #ddd; */
+
+
+th, td { text-align: center; 
+    padding: 10px;
+}
+
+th { background-color: #712121; 
+    color: white;
+ }
+

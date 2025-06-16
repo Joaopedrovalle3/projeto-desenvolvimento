@@ -1,4 +1,5 @@
 import React from "react";
+import './formulario.css';
 
 function Formulario() {
     return (
